@@ -1,9 +1,0 @@
-- pipeline: prd
-  refs:
-  - refs/heads/main
-  events:
-  - type: PULL_REQUEST
-    branches:
-    - :default
-    - main
-  fail_on_prepare_env_warning: true
